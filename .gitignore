@@ -1,0 +1,13 @@
+# Node modules (backend dependencies)
+imdb-api/node_modules/
+
+# Env file (sensitive data)
+imdb-api/.env
+
+# Logs
+*.log
+
+# System junk
+.DS_Store
+Thumbs.db
+
