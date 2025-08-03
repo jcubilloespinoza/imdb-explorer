@@ -14,8 +14,8 @@ h1 {
     color: #DAD9D5;
 }
 
-/* Movie list container */
-#movieList {
+
+#movieList, #seriesList ,#hiddenGems ,#topCountries {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
@@ -23,8 +23,7 @@ h1 {
     padding: 0 2rem;
 }
 
-/* Each movie card */
-#movieList div {
+#movieList div, #seriesList div,#hiddenGems div, #topCountries div {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -33,18 +32,16 @@ h1 {
     transition: transform 0.2s ease-in-out;
 }
 
-#movieList div:hover {
+#movieList div:hover, #seriesList div:hover,#hiddenGems div:hover, #topCountries div:hover{
     transform: scale(1.02);
 }
 
-/* Movie title */
-#movieList h3 {
+#movieList h3, #seriesList h3,#hiddenGems h3, #topCountries H3 {
     margin: 0 0 0.5rem;
     color: #34495e;
 }
 
-/* Movie year and rating */
-#movieList p {
+#movieList p, #seriesList p,#hiddenGems p, #topCountries P {
     margin: 0;
     font-size: 0.9rem;
     color: #777;
@@ -77,4 +74,3 @@ a {
     display: flex;
     justify-content: center;
 }
-
